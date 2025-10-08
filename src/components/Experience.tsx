@@ -6,48 +6,40 @@ export default function Experience() {
   const experiences: Experience[] = [
     {
       id: '1',
-      title: 'Software Developer',
-      company: 'Finrise Softech',
-      location: 'Mumbai',
-      startDate: 'Aug 2023',
-      endDate: 'Dec 2024',
+      title: 'Senior Software Developer',
+      company: 'SGFX',
+      location: 'Dubai',
+      startDate: 'Sep 2025',
+      endDate: 'Current',
       description: [
-        'Led development of microservices architecture serving 1M+ users',
-        'Mentored junior developers and established coding standards',
-        'Improved application performance by 40% through optimization',
-        'Implemented CI/CD pipelines reducing deployment time by 60%'
+        'Lead development of scalable and secure features for core ',
+        'enterprise applications. Architected real-time data streaming',
+        'solutions using WebSockets and event-driven microservices. ',
+        'Mentored junior developers and conducted code reviews to ensure',
+        'code quality and best practices. Spearheaded CI/CD pipeline ',
+        'improvements, reducing deployment times by 30%.Oversaw cloud ',
+        'infrastructure performance, applying auto-scaling and cost ',
+        'optimization strategies.'
       ],
-      technologies: ['React', 'Node.js', 'AWS', 'Docker', 'PostgreSQL']
+      technologies: ['Python', 'Django', 'Django Channels', 'Django Rest Framework', 'Celery', 'React.js', 'Redux', 'WebSocket', 'PostgreSQL', 'Redis', 'Docker', 'Linux', 'Git & GitHub', 'CI/CD', 'JWT', 'Tailwind CSS', 'Microservices Architecture', 'Cloud Infrastructure', 'REST APIs']
     },
     {
       id: '2',
-      title: 'Full Stack Developer',
-      company: 'StartupXYZ',
-      location: 'Austin, TX',
-      startDate: '2020',
-      endDate: '2022',
+      title: 'Software Developer',
+      company: 'Finrise Softech Pvt Ltd',
+      location: 'Mumbai, India',
+      startDate: 'Aug 2023',
+      endDate: 'Sept 2025',
       description: [
-        'Built scalable web applications from concept to production',
-        'Collaborated with designers to implement pixel-perfect UIs',
-        'Integrated third-party APIs and payment processing systems',
-        'Participated in agile development and sprint planning'
+        'Developed new product features for company platforms, focusing',
+        'on performance and scalability. Implemented latest security ',
+        'patches and ensured compliance with industry standards. Enhanced ',
+        'WebSocket-based real-time streaming performance. Managed source ',
+        'code using Git and GitHub, ensuring smooth collaboration and ',
+        'version control. Built CI/CD pipelines for continuous integration ',
+        'and deployment.',
       ],
-      technologies: ['Vue.js', 'Express', 'MongoDB', 'Stripe', 'Heroku']
-    },
-    {
-      id: '3',
-      title: 'Frontend Developer',
-      company: 'Digital Agency Pro',
-      location: 'Remote',
-      startDate: '2019',
-      endDate: '2020',
-      description: [
-        'Developed responsive websites for 50+ client projects',
-        'Optimized websites for SEO and accessibility compliance',
-        'Collaborated with design team to create engaging user experiences',
-        'Maintained and updated existing client websites'
-      ],
-      technologies: ['JavaScript', 'HTML/CSS', 'WordPress', 'PHP', 'jQuery']
+      technologies: ['Python', 'Django Rest Framework', 'Websocket', 'Celery', 'React', 'MySQL', 'PostgreSQL', 'Redis', 'Linux', 'Docker', 'Git & GitHub']
     }
   ];
 
